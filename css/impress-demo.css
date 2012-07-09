@@ -82,7 +82,7 @@ table {
     want to leave anybody behind.
 */
 body {
-    font-family: 'PT Sans', sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", sans-serif;
     min-height: 740px;
         
     background: rgb(215, 215, 215);
@@ -96,11 +96,11 @@ body {
 body.impress-on-home,body.impress-on-background1,body.impress-on-background2,body.impress-on-background3,body.impress-on-background4,body.impress-on-background5{
 	background: rgb(215, 215, 215);
     background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(190, 190, 190)));
-    background: -webkit-radial-gradient(rgb(100, 100, 120), rgb(15, 15, 40));
-    background:    -moz-radial-gradient(rgb(100, 100, 120), rgb(15, 15, 40));
-    background:     -ms-radial-gradient(rgb(100, 100, 120), rgb(15, 15, 40));
-    background:      -o-radial-gradient(rgb(100, 100, 120), rgb(15, 15, 40));
-    background:         radial-gradient(rgb(100, 100, 120), rgb(15, 15, 40));
+    background: -webkit-radial-gradient(rgb(95, 100, 110), rgb(10, 15, 27));
+    background:    -moz-radial-gradient(rgb(95, 100, 110), rgb(10, 15, 27));
+    background:     -ms-radial-gradient(rgb(95, 100, 110), rgb(10, 15, 27));
+    background:      -o-radial-gradient(rgb(95, 100, 110), rgb(10, 15, 27));
+    background:         radial-gradient(rgb(95, 100, 110), rgb(10, 15, 27));
 }
 
 /*
@@ -230,7 +230,7 @@ a:focus {
     color: rgb(102, 102, 102);
     text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
 
-    font-family: 'Open Sans', Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", sans-serif;
     font-size: 30px;
     line-height: 36px;
     letter-spacing: -1px;
@@ -306,22 +306,7 @@ a:focus {
 #title .footnote {
     font-size: 32px;
 }
-#background1 span{
-    display: inline-block;
-    -webkit-transition: 1.5s;
-    -moz-transition:    1.5s;
-    -ms-transition:     1.5s;
-    -o-transition:      1.5s;
-    transition:         1.5s;
-}
-.present #toucai{
-	-webkit-transform: translate(-20px,-20px);
-    -moz-transform:    translate(-20px,-20px);
-    -ms-transform:     translate(-20px,-20px);
-    -o-transform:      translate(-20px,-20px);
-    transform:         translate(-20px,-20px);
-    taransition-duration:	1s;
-}
+
 /*
     Second step is nothing special, just a text with a link, so it doesn't need
     any special styling.
