@@ -2,13 +2,15 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=1024" />
+		<meta name="viewport" content="width=1024"/>
 		<meta name="apple-mobile-web-app-capable" content="yes" />
-		<title>Encounter | Find the Beauty of the City | by BetaFish</title>
+		<title>邂逅 | 与城市的美好不期而遇 | by BetaFish</title>
 		<meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
 		<meta name="author" content="Bartek Szopka" />
 		<link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
 		<link href="css/impress-demo.css" rel="stylesheet" />
+		<link href="css/animate-custom.css" rel="stylesheet" />
+		<link href="css/photo.css" rel="stylesheet" />
 		<link rel="shortcut icon" href="favicon.png" />
 		<link rel="apple-touch-icon" href="apple-touch-icon.png" />
 	</head>
@@ -74,15 +76,33 @@
 					<img src="image/Encounter.png" />
 				</p>
 			</div>
-			<div id="big" class="step" data-x="3500" data-y="4100" data-rotate="270" data-scale="6">
+			<div id="big" class="step" data-x="3500" data-y="4100" data-rotate="180" data-scale="6" style="">
 				<p>
 					一堆技术杂和得到<b>邂逅</b>
 				</p>
 			</div>
-			<div id="tiny" class="step" data-x="3500" data-y="1500" data-rotate="315" data-scale="1">
-				<div id="ing">
-					<p><b class="positioning">如何</b> <b class="rotating">应对</b> <b class="scaling">挑战</b>?</p>
-				</div>
+			<div id="tiny" class="step" data-x="3500" data-y="2000" data-rotate="225" data-scale="1">
+					<div class="photo-album">
+						<h1><span><b class="positioning">如何</b> <b class="rotating">应对</b> <b class="scaling">挑战</b>?</span></h1>
+						<a href="#" class="large polaroid img1"><img src="image/challenges/google-maps.png" alt="">谷歌地1</a>
+						<a href="#" class="polaroid img2"><img src="image/challenges/piaopiao.png" alt="">飘飘2</a>
+						<a href="#" class="small polaroid img3"><img src="image/challenges/weixin-logo.png" alt="">微信3</a>
+						<a href="#" class="medium polaroid img4"><img src="image/challenges/Jiepang-Logo.png" alt="">街旁网</a>
+						<a href="#" class="polaroid img5"><img src="image/challenges/dazhongdianping-logo.png" alt="大众点评网">大众点评</a>
+						<a href="#" class="polaroid img6"><img src="image/challenges/weixin-logo-1.png" alt="">微信6</a>
+						<a href="#" class="polaroid img7"><img src="image/challenges/qq.png" alt="腾讯抄袭">腾讯7</a>
+						<a href="#" class="small polaroid img8"><img src="image/challenges/miliao-logo2.jpeg" alt="">米聊8</a>
+						<a href="#" class="medium polaroid img9"><img src="image/challenges/qq.png" alt="腾讯抄袭">腾讯9</a>
+						<a href="#" class="polaroid img10"><img src="image/challenges/google-maps.png" alt="">谷歌10</a>
+						<a href="#" class="small polaroid img11"><img src="image/challenges/piaopiao.png" alt="">飘11</a>
+						<a href="#" class="small polaroid img12"><img src="image/challenges/immomo.jpg" alt="">12</a>
+						
+						<!--
+							<a href="#" class="small polaroid img13"><img src="image/challenges/dazhongdianping-logo.jpg" alt="">Horing</a>
+							<a href="#" class="small polaroid img14"><img src="image/challenges/dazhongdianping-logo.jpg" alt="">Stewland</a>
+							-->
+						<a href="#" class="polaroid img15"><img src="image/challenges/qq.png" alt="腾讯抄袭">腾讯抄袭</a>
+					</div>
 			</div>
 		<!--
 			<div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="360" data-scale="4">
@@ -92,7 +112,7 @@
 					</div>
 					-->
 		
-			<div id="ing2" class="step" data-x="3500" data-y="-850" data-rotate="360" data-scale="4">
+			<div id="ing2" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="4">
 				
 				<p>
 					<img src="image/chuang-xin-xing.png" />
@@ -112,7 +132,6 @@
 				<p>
 					<span class="have">do</span> <span class="you">you</span> <span class="noticed">have</span> <span class="its">any</span> <span class="in">questions</span>?
 				</p>
-				<img src="image/xiehou-ouyu.jpg" />
 				<span class="footnote">By BetaFish ;)</span>
 			</div>
 			<div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10"></div>
