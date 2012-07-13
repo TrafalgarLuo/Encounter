@@ -115,7 +115,8 @@ i, em { font-style: italic }
 a {
     color: inherit;
     text-decoration: none;
-    padding: 0 0.1em;
+    padding: 0 0em;
+   
     background: rgba(255,255,255,0.5);
     text-shadow: -1px -1px 2px rgba(100,100,100,0.9);
     border-radius: 0.2em;
@@ -319,7 +320,8 @@ a:focus {
     text-align: center;
     font-size: 60px;
     /*line-height: 1;*/
-    line-height:400px;
+    line-height:600px;
+    height: 600px;
 }
 #big #opacity_div{
 	/*
@@ -348,13 +350,13 @@ a:focus {
 
 #big b {
     display: block;
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 100px;
+    line-height: 100px;
 }
 
 #big .thoughts {
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 25px;
+    line-height: 25px;
 }
 
 /*
@@ -406,11 +408,11 @@ a:focus {
     ... and 'scaling' to scale down after another quater of a second.
 */
 #tiny.present .scaling {
-    -webkit-transform: scale(0.7);
-    -moz-transform:    scale(0.7);
-    -ms-transform:     scale(0.7);
-    -o-transform:      scale(0.7);
-    transform:         scale(0.7);
+    -webkit-transform: scale(1.5);
+    -moz-transform:    scale(1.5);
+    -ms-transform:     scale(1.5);
+    -o-transform:      scale(1.5);
+    transform:         scale(1.5);
 
     -webkit-transition-delay: 0.5s;
     -moz-transition-delay:    0.5s;
