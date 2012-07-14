@@ -359,6 +359,10 @@ a:focus {
     line-height: 25px;
 }
 
+.valueWay{
+	font-weight: bolder;
+}
+
 /*
     'Tiny ideas' just need some tiny styling.
 */
